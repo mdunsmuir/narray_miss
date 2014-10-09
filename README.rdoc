@@ -1,0 +1,54 @@
+= What's NArrayMiss
+
+NArrayMiss is an additional Ruby class with processing of missing value
+to NArray which is a numerical multi-dimensional array Ruby class.
+
+
+= NArrayMiss home-page
+
+The URL of the NArrayMiss home-page is:
+ http://ruby.gfd-dennou.org/products/narray_miss/
+
+
+= Requires
+
+* Ruby (http://www.ruby-lang.org/)
+* NArray (http://narray.rubyforge.org/index.html.en)
+
+
+= Install
+
+== gem (download from rubygems.org)
+
+ # gem install narray_miss
+
+== gem (with tarball)
+* generate gem file locally under pkg directory and install it
+
+ % tar zxvf narray_miss-{version}.tar.gz
+ % cd narray_miss-{version}
+ % sudo rake install
+
+== without gem
+
+ % tar zxvf narray_miss-{version}.tar.gz
+ % cd narray_miss-{version}
+ % sudo rake nongeminstall
+
+= Copying
+
+See the file LICENSE.txt.
+
+
+= Usage
+
+To use this library, put the following in your script.
+ require 'narray_miss'
+
+
+= The Author
+
+Feel free to send comments and bug reports to the author.
+The author's e-mail addess is
+
+ seiya@gfd-dennou.org
